@@ -5,6 +5,23 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <p>
+      <label>
+        Start date:
+        <input type="month" name="start" value="2019-10">
+      </label>
+
+      <label>
+        End date:
+        <input type="month" name="end" value="2020-10">
+      </label>
+
+      <select name="currency">
+        <option value="USD">$ USD</option>
+        <option value="EUR">€ EUR</option>
+      </select>
+    </p>
+
     <canvas id="myChart" width="400" height="400"></canvas>
 
     <script src="https://unpkg.com/axios@0.20.0/dist/axios.min.js"></script>
